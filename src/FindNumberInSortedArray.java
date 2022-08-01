@@ -22,7 +22,7 @@ public class FindNumberInSortedArray {
         return convertIntegerSequenceToList(line);
     }
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         File sm = new File("1-sm.txt");
         System.out.print("Inserted File: "+convertFileSequenceToList(sm));
